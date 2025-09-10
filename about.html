@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Maasai Crafts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --maasai-red: #d32f2f;
+            --maasai-orange: #ff6f00;
+            --maasai-brown: #8d6e63;
+            --maasai-cream: #fff8e1;
+            --maasai-dark: #3e2723;
+        }
+        
+        .text-maasai-red { color: var(--maasai-red) !important; }
+        .text-maasai-orange { color: var(--maasai-orange) !important; }
+        .text-maasai-brown { color: var(--maasai-brown) !important; }
+        .bg-maasai-cream { background-color: var(--maasai-cream) !important; }
+        .bg-maasai-red { background-color: var(--maasai-red) !important; }
+        .bg-maasai-orange { background-color: var(--maasai-orange) !important; }
+        
+        .btn-maasai-red {
+            background-color: var(--maasai-red);
+            border-color: var(--maasai-red);
+            color: white;
+        }
+        .btn-maasai-red:hover {
+            background-color: #b71c1c;
+            border-color: #b71c1c;
+            color: white;
+        }
+        
+        .btn-maasai-orange {
+            background-color: var(--maasai-orange);
+            border-color: var(--maasai-orange);
+            color: white;
+        }
+        .btn-maasai-orange:hover {
+            background-color: #e65100;
+            border-color: #e65100;
+            color: white;
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .page-header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/10b93506-d41c-42c8-965e-a2e67a8ad229_beads-factory-and-utamaduni-craft-centre-guided-tour.png');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0 80px;
+        }
+        
+        .impact-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--maasai-red);
+        }
+        
+        .stat-card {
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-maasai-red fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">
+                <i class="fas fa-gem me-2"></i>Maasai Crafts
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stories.html">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container text-center">
+            <h1 class="display-4 text-white fw-bold mb-3">About Maasai Crafts</h1>
+            <p class="lead text-white">Preserving culture, empowering communities, one craft at a time</p>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="img/maasai-market-days-in-nairobi-kenya-2024-best-safari-guides-cheetah-safaris.jpeg" class="img-fluid rounded" alt="Maasai Artisans" style="height: 400px; width: 100%; object-fit: cover;">
+                </div>
+                <div class="col-lg-6">
+                    <div class="ps-lg-4">
+                        <h2 class="text-maasai-red mb-4">Our Mission</h2>
+                        <p class="text-maasai-brown lead mb-4">We bridge the gap between traditional Maasai craftsmanship and the modern world, ensuring that every piece tells a story of cultural heritage while supporting local artisans and their communities.</p>
+                        <p class="text-maasai-brown mb-4">Founded in 2018, Maasai Crafts began as a small initiative to help local artisans in Narok County showcase their traditional skills to a global audience. What started as a passion project has grown into a movement that celebrates cultural diversity and economic empowerment.</p>
+                        <p class="text-maasai-brown">We believe that traditional crafts are not just beautiful objects—they are living expressions of culture, history, and identity. By supporting our artisans, we're helping to preserve these precious traditions for future generations while creating sustainable livelihoods for Maasai communities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Numbers -->
+    <section class="py-5 bg-maasai-cream">
+        <div class="container">
+            <h2 class="text-center text-maasai-red mb-5">Our Impact</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="impact-number">150+</div>
+                            <h5 class="text-maasai-red">Artisans Supported</h5>
+                            <p class="text-maasai-brown">Local craftspeople across Narok, Kajiado, and Laikipia counties</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="impact-number">5,000+</div>
+                            <h5 class="text-maasai-red">Products Sold</h5>
+                            <p class="text-maasai-brown">Handcrafted items delivered to customers worldwide</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="impact-number">$250K+</div>
+                            <h5 class="text-maasai-red">Income Generated</h5>
+                            <p class="text-maasai-brown">Direct economic impact for artisan families</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="impact-number">12</div>
+                            <h5 class="text-maasai-red">Communities</h5>
+                            <p class="text-maasai-brown">Maasai villages directly benefiting from our work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center text-maasai-red mb-5">Our Values</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="text-center">
+                        <div class="bg-maasai-red text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </div>
+                        <h4 class="text-maasai-red mb-3">Cultural Preservation</h4>
+                        <p class="text-maasai-brown">We are committed to preserving traditional Maasai craftsmanship and passing these skills to future generations through education and mentorship programs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="text-center">
+                        <div class="bg-maasai-orange text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-handshake fa-2x"></i>
+                        </div>
+                        <h4 class="text-maasai-red mb-3">Fair Trade</h4>
+                        <p class="text-maasai-brown">We ensure fair wages and working conditions for all our artisans, providing them with sustainable livelihoods and economic independence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="text-center">
+                        <div class="bg-maasai-brown text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-leaf fa-2x"></i>
+                        </div>
+                        <h4 class="text-maasai-red mb-3">Sustainability</h4>
+                        <p class="text-maasai-brown">We use eco-friendly materials and sustainable practices, ensuring our business has a positive impact on both people and the environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Partnership -->
+    <section class="py-5 bg-maasai-cream">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="text-maasai-red mb-4">Community Partnerships</h2>
+                    <p class="text-maasai-brown lead mb-4">We work closely with local Maasai communities to ensure our initiatives align with their needs and values.</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <h6 class="text-maasai-red">
+                                <i class="fas fa-graduation-cap me-2"></i>Education Programs
+                            </h6>
+                            <p class="text-maasai-brown">Supporting schools and educational initiatives in Maasai communities.</p>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h6 class="text-maasai-red">
+                                <i class="fas fa-medkit me-2"></i>Healthcare Support
+                            </h6>
+                            <p class="text-maasai-brown">Providing access to healthcare services for artisan families.</p>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h6 class="text-maasai-red">
+                                <i class="fas fa-seedling me-2"></i>Environmental Conservation
+                            </h6>
+                            <p class="text-maasai-brown">Promoting sustainable practices and environmental protection.</p>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h6 class="text-maasai-red">
+                                <i class="fas fa-users me-2"></i>Women's Empowerment
+                            </h6>
+                            <p class="text-maasai-brown">Supporting women artisans with training and leadership opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/image_stories_cities_Nairobi_Utamaduni-Crafts-Centre.jpg" class="img-fluid rounded" alt="Community Partnership" style="height: 400px; width: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center text-maasai-red mb-5">Our Team</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/shelves-full-of-ife-bronze.jpg" class="card-img-top" alt="Team Member" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="text-maasai-red">Sarah Mwangi</h5>
+                            <p class="text-maasai-brown fw-bold">Founder & CEO</p>
+                            <p class="text-maasai-brown">Passionate about cultural preservation and community development, Sarah founded Maasai Crafts to bridge traditional craftsmanship with modern markets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/c9.jpg" class="card-img-top" alt="Team Member" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="text-maasai-red">John Ole Kipas</h5>
+                            <p class="text-maasai-brown fw-bold">Community Relations Director</p>
+                            <p class="text-maasai-brown">Born and raised in Narok, John ensures our partnerships with local communities are authentic and mutually beneficial.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center">
+                        <img src="img/maasai-market-days-in-nairobi-kenya-2024-best-safari-guides-cheetah-safaris.jpeg" class="card-img-top" alt="Team Member" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="text-maasai-red">Grace Nkatha</h5>
+                            <p class="text-maasai-brown fw-bold">Quality Assurance Manager</p>
+                            <p class="text-maasai-brown">Grace ensures every product meets our high standards while maintaining cultural authenticity and traditional techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-maasai-red text-white">
+        <div class="container text-center">
+            <h3 class="mb-4">Join Our Mission</h3>
+            <p class="lead mb-4">Be part of preserving Maasai culture and supporting local artisans. Every purchase makes a difference.</p>
+            <a href="shop.html" class="btn btn-maasai-orange btn-lg me-3">Shop Now</a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg">Get Involved</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-maasai-red text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-maasai-orange">Maasai Crafts</h5>
+                    <p class="text-light">Handmade with pride in Narok</p>
+                    <p class="text-light">Supporting local artisans and preserving cultural heritage through authentic handcrafts.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="text-maasai-orange">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="shop.html" class="text-light text-decoration-none">Shop</a></li>
+                        <li><a href="stories.html" class="text-light text-decoration-none">Stories</a></li>
+                        <li><a href="about.html" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="text-maasai-orange">Follow Us</h6>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-tiktok fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="text-light mb-0">&copy; 2024 Maasai Crafts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
